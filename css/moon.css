@@ -1,0 +1,25 @@
+body {
+    background-image: url("../images/F0566430-5B6C-4EA5-8BED-80676141E3F6.jpeg");
+    background-size: 1400px 700px;
+    display: flex;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    }
+ img {
+    margin-top: 200PX;
+    margin-left: -50PX;
+ }
+p {
+        color: bisque;
+        font-size: 40 px;
+        font-family: 'Courier New', Courier, monospace;
+}
+.author {
+    font-style: italic;
+}
+.but {
+    
+   font-size: 40px;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/moon.css">
+</head>
+    <body>
+        <div id="header"  class="div">
+            <img src="images/moon1.1.jpg" id="img_1"  style="position:absolute;opacity: 0; filter: alpha(opacity=0); "  />
+            <img src="images/moon1.2.jpg" id="img_2"  style="position:absolute;opacity: 0; filter: alpha(opacity=0); "  />
+            <img src="images/moon1.3.jpg" id="img_3"  style="position:absolute;opacity: 0; filter: alpha(opacity=0); " />
+            <img src="images/moon1.4.jpg" id="img_4"  style="position:absolute;opacity: 0; filter: alpha(opacity=0); "  />
+            <img src="images/moon1.5.jpg" id="img_5"  style="position:absolute;opacity: 0; filter: alpha(opacity=0); "  />
+            <img src="images/moon1.6.jpg" id="img_6"  style="position:absolute;opacity: 0; filter: alpha(opacity=0); "  />
+            <img src="images/moon1.7.jpg" id="img_7"  style="position:absolute;opacity: 0; filter: alpha(opacity=0); "  />
+            <img src="images/moon1.8.jpg" id="img_8"  style="position:absolute;opacity: 0; filter: alpha(opacity=0); "  />
+        </div>
+        <script src="script/moon.js"></script>
+        <div>
+            <p id="quote">
+              HJKJKJ
+            </p>
+            <p class="author" id="aut">
+              KKKK
+            </p>
+        </div>
+        <div>
+            <button class="but" id="generate" onclick='generatequote();'>сгенерировать</button>
+        </div>
+
+        <script>
+            a = [['Не совершай классическую ошибку всех умников: не думай, что нет людей умнее тебя.','Карл Ван Лун'], ['Ничто так не выдает человека, как то, над чем он смеётся.', 'Иоганн Вольфганг фон Гёте'], ['Денег, которые я заработал, хватит мне до конца жизни, если я умру сегодня в 16.00.', 'Хенни Янгман']]
+            let i = 0;
+            function generatequote () {
+                document.getElementById (quote).innerText = a[i][0];
+                document.getElementById (aut).innerText = a[i][1];
+                i +=1;
+            }
+
+
+        </script>
+        </body>
+        </html>
+        
