@@ -6,6 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/moon.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Philosopher&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Philosopher&display=swap" rel="stylesheet">
 </head>
     <body>
         <div id="header"  class="div">
@@ -21,27 +27,15 @@
         <script src="script/moon.js"></script>
         <div>
             <p id="quote">
-              HJKJKJ
+              
             </p>
             <p class="author" id="aut">
-              KKKK
+              
             </p>
         </div>
         <div>
-            <button class="but" id="generate" onclick='generatequote();'>сгенерировать</button>
+        <button class="but" id="generate" onclick='generatequote();'>сгенерировать</button>
         </div>
-
-        <script>
-            a = [['Не совершай классическую ошибку всех умников: не думай, что нет людей умнее тебя.','Карл Ван Лун'], ['Ничто так не выдает человека, как то, над чем он смеётся.', 'Иоганн Вольфганг фон Гёте'], ['Денег, которые я заработал, хватит мне до конца жизни, если я умру сегодня в 16.00.', 'Хенни Янгман']]
-            let i = 0;
-            function generatequote () {
-                document.getElementById (quote).innerText = a[i][0];
-                document.getElementById (aut).innerText = a[i][1];
-                i +=1;
-            }
-
-
-        </script>
         </body>
         </html>
         
